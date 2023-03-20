@@ -40,7 +40,7 @@ a {
 }
 
 .name {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Norse";
     margin: 0px auto;
     padding: 0;
@@ -71,14 +71,15 @@ header {
 
 nav {
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 12px 2rem 12px 2rem;
+    max-width: 600px;
+    padding: .4rem 1rem .4rem 1rem;
 }
 
 nav > ul > li {
     cursor: pointer;
     padding: .5rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    vertical-align: middle;
 }
 
 .selectable, .selected {
@@ -122,9 +123,9 @@ nav > ul > li:hover {
 nav > ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0 auto;
     padding: 0px;
 }
@@ -240,9 +241,9 @@ footer > p {
 
 @media (min-width: 320px) and (max-width: 700px) {
     nav > ul {
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr 1fr;
-        text-align: center;
+        text-align: center; */
     }
     #content-container {
         background-size: 100% 200%;

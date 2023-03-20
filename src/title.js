@@ -32,32 +32,32 @@ export function createTitle(content) {
   li1.appendChild(ali1);
   navbarList.appendChild(li1);
 
-  let li2 = document.createElement("li");
-  let ali2 = document.createElement("a");
-  ali2.id = "ali2";
-  ali2.classList.add("selectable");
-  ali2.textContent = "Reservations";
-  ali2.addEventListener("click", eventHandler.bind(null, content), false);
-  li2.appendChild(ali2);
-  navbarList.appendChild(li2);
+  // let li2 = document.createElement("li");
+  // let ali2 = document.createElement("a");
+  // ali2.id = "ali2";
+  // ali2.classList.add("selectable");
+  // ali2.textContent = "Reservations";
+  // ali2.addEventListener("click", eventHandler.bind(null, content), false);
+  // li2.appendChild(ali2);
+  // navbarList.appendChild(li2);
 
   let li3 = document.createElement("li");
   let ali3 = document.createElement("a");
   ali3.id = "ali3";
   ali3.classList.add("selectable");
-  ali3.textContent = "Hours and Location";
+  ali3.textContent = "Hours & Location";
   ali3.addEventListener("click", eventHandler.bind(null, content), false);
   li3.appendChild(ali3);
   navbarList.appendChild(li3);
 
-  let li4 = document.createElement("li");
-  let ali4 = document.createElement("a");
-  ali4.id = "ali4";
-  ali4.classList.add("selectable");
-  ali4.textContent = "Contact";
-  ali4.addEventListener("click", eventHandler.bind(null, content), false);
-  li4.appendChild(ali4);
-  navbarList.appendChild(li4);
+  // let li4 = document.createElement("li");
+  // let ali4 = document.createElement("a");
+  // ali4.id = "ali4";
+  // ali4.classList.add("selectable");
+  // ali4.textContent = "Contact";
+  // ali4.addEventListener("click", eventHandler.bind(null, content), false);
+  // li4.appendChild(ali4);
+  // navbarList.appendChild(li4);
 }
 
 function eventHandler(content, event) {
